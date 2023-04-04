@@ -18,4 +18,3 @@ Despues esta la etiqueta keywords que ya no se usa mucho porque actualmente Goog
 
 Lo ultimo que quiero comentarles es que yo llamo a los estilos de esta manera para mejorar el identado y tambien porque me acostumbre, suelo trabar con sass (procesador de css) y en ese momento se me es mas facil.
 Igualmente si no trabajan de este metodo me acostumbro al metodo de trabajo que tengan sin ningun problema.
-
