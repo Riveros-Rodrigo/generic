@@ -131,7 +131,7 @@ section .contenedor-video .img-video .img-2{
 section .contenedor-video .texto-video p{
     text-align: left;
     color: rgb(238, 238, 238);
-    padding: 20px 0px;
+    padding: 20px 10px;
 }
 /* FINALIZA ESTILOS VIDEO */
 /* COMIENZA ESTILOS SPEAKER */
