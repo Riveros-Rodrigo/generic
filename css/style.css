@@ -90,16 +90,29 @@ section .img-video{
     justify-content: center;
     position: relative;
 }
-section .img-play{
+section .img-video .img-1{
+display: block;
+width: 90%;
+height: auto;
+margin: 20px 0px;
+}
+section .img-video .img-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+/* section .img-play{
     display: flex;
     justify-content: center;
     position: absolute;
     top: 127%;
     left: 40%;
-}
-section .img-video img{
+} */
+/* section .img-video img{
     margin: 20px 0px;
-}
+} */
 section .texto-video p{
     text-align: center;
     color: rgb(238, 238, 238);
