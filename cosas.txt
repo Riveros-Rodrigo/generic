@@ -1,3 +1,14 @@
 fontsize 51px para pc los titulos
 font-size: 26px; para pc el calendario
 font-size: 51px; speaker
+
+
+para el responsive voy a usar los siguientes quiebres:
+
+480px: Este ancho se utiliza para dispositivos móviles más grandes en orientación vertical y para tablets pequeñas en orientación horizontal.
+
+768px: Este ancho se utiliza comúnmente para tablets en orientación vertical y para laptops en orientación horizontal.
+
+1024px: Este ancho se utiliza para laptops y monitores de escritorio con pantallas pequeñas.
+
+1200px: Este ancho se utiliza para monitores de escritorio con pantallas más grandes.

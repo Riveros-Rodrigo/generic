@@ -15,6 +15,9 @@ header .contenedor{
     width: 80%;
     margin: auto;
 }
+header .contenedor .logo{
+padding: 15px 0px;
+}
 header .contenedor .btn-header button{
 font-size: 15px;
 border: none;
@@ -38,6 +41,10 @@ header .contenedor .texto-header{
 section .contenedor-calendario{
     width: 100%;
     margin: auto;
+    background-color: rgb(244, 244, 244);
+}
+section .info-txt{
+    background-color: rgb(255, 255, 255);
 }
 section .info-txt p{
 font-size: 15px;
@@ -47,7 +54,6 @@ margin: 20px 10px;
 /* z-index: 17; */
 }
 section .calendario{
-background-color: rgb(244, 244, 244);
 padding: 25px 0px;
 }
 section .calendario .calendario-img{
@@ -136,9 +142,12 @@ footer .contedor-footer{
     height: 100px;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: rgb(124, 85, 181);
+}
+footer .contedor-footer .texto-footer{
+    padding: 0px 10px;
 }
 footer .contedor-footer .texto-footer p{
     font-size: 12px;
@@ -150,9 +159,82 @@ footer .contedor-footer .texto-footer a{
     font-size: 12px;
     line-height: 1.2;
 }
+footer .contedor-footer .anio-footer{
+    padding: 0px 10px;
+}
 footer .contedor-footer .anio-footer p{
     font-size: 12px;
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: right;
+}
+/* Arranca el responsive  tablet*/
+@media screen and (min-width:768px ) {
+    /* responsive header */
+    header .contenedor .logo{
+        padding: 10% 0%;
+    }
+    header .contenedor .contenedor-lunch{
+        padding: 20% 0%
+    }
+    header .contenedor .btn-header button{
+        font-size: 25px;
+    }
+    header .contenedor .texto-header{
+        font-size: 30px;
+        margin: 10px 0px;
+    }
+    /* responsive seccion calendario */
+    section .contenedor-calendario{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: rgb(244, 244, 244);
+    }
+    section .info-txt{
+        width: 50%;
+        background-color: rgb(255, 255, 255);
+        }
+    section .calendario{
+        width: 50%;
+    }
+    /* seccion video */
+    section .contenedor-video{
+        display: flex;
+        align-items: center;
+    }
+    section .img-video{
+        width: 50%;
+    }
+    section .texto-video{
+        width: 50%;
+    }
+    /* seccion speaker */
+    section .contenedor-speaker p{
+        font-size: 25px;
+    }
+    footer .contedor-footer .texto-footer{
+        padding: 0px 50px;
+    }
+    footer .contedor-footer .anio-footer{
+        padding: 0px 50px;
+    }
+}
+/* Arranca el responsive laptops y monitores de escritorio con pantallas pequeñas*/
+@media screen and (min-width:1024px) {
+    header .contenedor .contenedor-lunch{
+        padding: 15% 0%
+    }
+}
+/* @media screen and ((min-width:1046px) and (max-width:1293px)){
+    body{
+        background-color: red;
+    }
+    } */
+
+/* 1200px: Este ancho se utiliza para monitores de escritorio con pantallas más grandes. */
+@media screen and (min-width:1200px) {
+    header .contenedor .contenedor-lunch{
+        padding: 8% 0%
+    }
 }
