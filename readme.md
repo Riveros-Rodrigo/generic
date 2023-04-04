@@ -6,6 +6,8 @@ La prueba tecnica la desarrolle con mobile first. Para el responsive use los sig
 
 1200px: Este ancho se utiliza para monitores de escritorio con pantallas más grandes.
 
+1500px: Es el tamaño que tiene mi pantalla
+
 ----------------------------------------------
 No agregue en el head las etiquetas meta para mejorar un poco el SEO, pero por las dudas comento las que se utilizar:
 
@@ -21,4 +23,3 @@ Sobre la fuente de letra no pude encontrar en google fonts "HelveticaNeueLTPro" 
 
 Lo ultimo que quiero comentarles es que yo llamo a los estilos de esta manera para mejorar el identado y tambien porque me acostumbre, suelo trabajar con sass (procesador de css) y en ese momento se me es mas facil.
 Igualmente si no trabajan de este metodo me acostumbro al metodo de trabajo que tengan sin ningun problema.
-

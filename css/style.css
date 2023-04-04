@@ -264,7 +264,8 @@ section .contenedor-calendario .info-txt{
     padding: 50px 0px;
 }
 section .contenedor-calendario .info-txt p{
-    font-size: 20px;
+    font-size: 15px;
+    padding: 10px 110px;
 }
 section .contenedor-calendario .calendario .txt-calendario p{
     font-size: 20px;
@@ -276,6 +277,7 @@ section .contenedor-video .img-video .img-1{
 }
 section .contenedor-video .texto-video p{
     font-size: 20px;
+    padding: 20px 30px;
 }
 /* FINALIZA RESPONSIVE VIDEO */
 /* RESPONSIVE SPEAKER */
@@ -294,4 +296,16 @@ footer .contedor-footer .anio-footer p{
     font-size: 15px;
 }
 /* FINALIZA RESPONSIVE FOOTER */
+}
+@media screen and (min-width:1500px) {
+    /* calendario */
+    section .contenedor-calendario .info-txt p{
+    font-size: 15px;
+    padding: 10px 200px;
+}
+/* video */
+section .contenedor-video .texto-video p{
+    font-size: 20px;
+    padding: 20px 140px;
+}
 }
