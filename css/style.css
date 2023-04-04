@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Righteous&family=Roboto&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+
+}
 /* hago el reset */
 *{
     margin: 0;
@@ -169,6 +175,7 @@ footer .contedor-footer .texto-footer a{
     color: rgb(35, 19, 95);
     font-size: 12px;
     line-height: 1.2;
+    text-decoration: none;
 }
 footer .contedor-footer .anio-footer{
     padding: 0px 10px;
@@ -256,6 +263,10 @@ header{
 }
 header .contenedor .contenedor-lunch{
     padding: 8% 0%
+}
+header .contenedor .contenedor-lunch .texto-header{
+    font-size: 100px;
+    margin: 10px 0px;
 }
 /* FINALIZA RESPONSIVE HEADER */
 /* RESPONSIVE CALENDARIO */

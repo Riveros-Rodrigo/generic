@@ -17,9 +17,11 @@ No agregue en el head las etiquetas meta para mejorar un poco el SEO, pero por l
 Despues esta la etiqueta keywords que ya no se usa mucho porque actualmente Google no utiliza esta etiqueta para determinar la relevancia de la página.
 
 ---------------------------------------------
-Sobre la fuente de letra no pude encontrar en google fonts "HelveticaNeueLTPro" la busque en otras paginas pero no eran seguras y por las dudas no descargue nada. Pido disculpas por no respetar la fuente, pero quiero que sepan que se linkear las fuentes tanto por el html como importarlas en el css.
+Sobre la fuente de letra no pude encontrar en google fonts "HelveticaNeueLTPro" la busque en otras paginas pero no eran seguras y por las dudas no descargue nada. Pido disculpas por no respetar la fuente, agregue otra medio parecida para que igualmente vean que se importar fuentes.
 
 ---------------------------------------------
+Tuve problemas con la proporciones de photoshop, es decir que algunas veces me vi en la necesidad de no respetar los px porque no quedaba como en el Demo HTML. Con los margenes lo tuve que hacer un poco a ojo, porque no se utilizar photoshop, soy mas del figma, igualmente busque videos en youtube y maso menos me oriente. En mobile lo fui acomodando yo porque no habia una Demo HTML de mobile, espero que les guste! :D
 
+---------------------------------------------
 Lo ultimo que quiero comentarles es que yo llamo a los estilos de esta manera para mejorar el identado y tambien porque me acostumbre, suelo trabajar con sass (procesador de css) y en ese momento se me es mas facil.
 Igualmente si no trabajan de este metodo me acostumbro al metodo de trabajo que tengan sin ningun problema.
