@@ -10,7 +10,6 @@ background-size: 100vw;
 header .contenedor-img-banner{
     background-image: url("../images/vector-smart-object.png");
     background-size: cover;
-    height: 28vh;
 }
 header .contenedor{
     width: 80%;
@@ -79,7 +78,7 @@ height: 2em;
 }
 /* SECTION VIDEO */
 section .contenedor-video{
-background-size: 100vh;
+background-size: cover;
 background-repeat: no-repeat;
 margin: auto;
 background-image: url("../images/fondo-layer.png");
