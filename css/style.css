@@ -1,7 +1,9 @@
+/* hago el reset */
 *{
     margin: 0;
     padding: 0;
 }
+/* COMIENZA ESTILOS HEADER */
 header{
     position: relative;
     width: 100%;
@@ -35,113 +37,117 @@ header .contenedor{
     position: relative;
 }
 header .contenedor .logo{
-padding: 15px 0px;
+    padding: 15px 0px;
 }
 header .contenedor .btn-header button{
-font-size: 15px;
-border: none;
-color: rgb(238, 238, 238);
-line-height: 1.003;
-cursor: pointer;
-background-color: rgb(35, 19, 95);
-width: 5em;
-height: 2em;
+    font-size: 15px;
+    border: none;
+    color: rgb(238, 238, 238);
+    line-height: 1.003;
+    cursor: pointer;
+    background-color: rgb(35, 19, 95);
+    width: 5em;
+    height: 2em;
 }
 header .contenedor .contenedor-lunch{
-padding: 20px 0px
+    padding: 20px 0px
 }
-header .contenedor .texto-header{
+header .contenedor .contenedor-lunch .texto-header{
     color: rgb(238, 238, 238);
     font-size: 20px;
     line-height: 1.003;
 }
-/* SECTION CALENDARIO*/
+/* FINALIZA ESTILOS HEADER */
+/* COMIENZA ESTILOS CALENDARIO*/
 section .contenedor-calendario{
     width: 100%;
     margin: auto;
     background-color: rgb(244, 244, 244);
 }
-section .info-txt{
+section .contenedor-calendario .info-txt{
     background-color: rgb(255, 255, 255);
 }
-section .info-txt p{
-font-size: 15px;
-color: rgb(35, 35, 35);
-line-height: 1.2;
-padding: 20px 10px;
+section .contenedor-calendario .info-txt p{
+    font-size: 15px;
+    color: rgb(35, 35, 35);
+    line-height: 1.2;
+    padding: 20px 10px;
 }
-section .calendario{
-padding: 25px 0px;
+section .contenedor-calendario .calendario{
+    padding: 25px 0px;
 }
-section .calendario .calendario-img{
-display: flex;
-justify-content: center;
+section .contenedor-calendario .calendario .calendario-img{
+    display: flex;
+    justify-content: center;
 }
-section .calendario .txt-calendario{
-margin: 10px 0px;
+section .contenedor-calendario .calendario .txt-calendario{
+    margin: 10px 0px;
 }
-section .calendario .txt-calendario p{
-font-size: 15px;
-color: rgb(35, 19, 95);
-line-height: 1.409;
-text-align: center;
+section .contenedor-calendario .calendario .txt-calendario p{
+    font-size: 15px;
+    color: rgb(35, 19, 95);
+    line-height: 1.409;
+    text-align: center;
 }
-section .calendario .btn-calendario{
-text-align: center;
+section .contenedor-calendario .calendario .btn-calendario{
+    text-align: center;
 }
-section .calendario .btn-calendario button{
-font-size: 15px;
-color: rgb(238, 238, 238);
-line-height: 1.003;
-background-color: rgb(35, 19, 95);
-border: none;
-cursor: pointer;
-width: 10em;
-height: 2em;
+section .contenedor-calendario .calendario .btn-calendario button{
+    font-size: 15px;
+    color: rgb(238, 238, 238);
+    line-height: 1.003;
+    background-color: rgb(35, 19, 95);
+    border: none;
+    cursor: pointer;
+    width: 10em;
+    height: 2em;
 }
-/* SECTION VIDEO */
+/* FINALIZA ESTILOS CALENDARIO */
+/* COMIENZA ESTILOS VIDEO */
 section .contenedor-video{
-background-size: cover;
-background-repeat: no-repeat;
-margin: auto;
-background-image: url("../images/fondo-layer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image: url("../images/fondo-layer.png");
 }
-section .img-video{
+section .contenedor-video .img-video{
     display: flex;
     justify-content: center;
     position: relative;
 }
-section .img-video .img-1{
-display: block;
-width: 90%;
-height: auto;
-margin: 20px 0px;
+section .contenedor-video .img-video .img-1{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 20px 0px;
 }
-section .img-video .img-2{
+section .contenedor-video .img-video .img-2{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
 }
-section .texto-video p{
+section .contenedor-video .texto-video p{
     text-align: left;
     color: rgb(238, 238, 238);
     padding: 20px 0px;
 }
-/* SECTION SPEAKER */
+/* FINALIZA ESTILOS VIDEO */
+/* COMIENZA ESTILOS SPEAKER */
 section .contenedor-speaker{
     width: 90%;
     margin: auto;
 }
 section .contenedor-speaker p{
-text-align: center;
-font-size: 15px;
-color: rgb(35, 35, 35);
-line-height: 1.003;
-margin: 20px 0px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(35, 35, 35);
+    line-height: 1.003;
+    margin: 20px 0px;
 }
-/* SECTION FOOTER */
+/* FINALIZA ESTILOS SPEAKER */
+/* COMIENZA ESTILOS FOOTER */
 footer .contedor-footer{
     width: 100%;
     height: 100px;
@@ -173,103 +179,119 @@ footer .contedor-footer .anio-footer p{
     line-height: 1.2;
     text-align: right;
 }
-/* Arranca el responsive  tablet*/
+/* FINALIZA ESTILOS FOOTER */
+
+/* RESPONSIVE TABLET*/
 @media screen and (min-width:768px ) {
-    /* responsive header */
-    header .contenedor .logo{
-        padding: 10% 0%;
-    }
-    header .contenedor .contenedor-lunch{
-        padding: 20% 0%
-    }
-    header .contenedor .btn-header button{
-        font-size: 25px;
-    }
-    header .contenedor .texto-header{
-        font-size: 30px;
-        margin: 10px 0px;
-    }
-    /* responsive seccion calendario */
-    section .contenedor-calendario{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        background-color: rgb(244, 244, 244);
-    }
-    section .info-txt{
-        width: 50%;
-        background-color: rgb(255, 255, 255);
-        }
-    section .calendario{
-        width: 50%;
-    }
-    /* seccion video */
-    section .contenedor-video{
-        display: flex;
-        align-items: center;
-    }
-    section .img-video{
-        width: 50%;
-    }
-    section .texto-video{
-        width: 50%;
-    }
-    /* seccion speaker */
-    section .contenedor-speaker p{
-        font-size: 25px;
-    }
-    footer .contedor-footer .texto-footer{
-        padding: 0px 50px;
-    }
-    footer .contedor-footer .anio-footer{
-        padding: 0px 50px;
-    }
+    /* RESPONSIVE HEADER*/
+header .contenedor .logo{
+    padding: 10% 0%;
 }
-/* Arranca el responsive laptops y monitores de escritorio con pantallas pequeñas*/
+header .contenedor .contenedor-lunch{
+    padding: 20% 0%
+}
+header .contenedor .btn-header button{
+    font-size: 25px;
+}
+header .contenedor .contenedor-lunch .texto-header{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+/* FINALIZA RESPONSIVE HEADER */
+/* RESPONSIVE CALENDARIO */
+section .contenedor-calendario{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+}
+section .contenedor-calendario .info-txt{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+section .contenedor-calendario .calendario{
+    width: 50%;
+}
+/* FINALIZA RESPONSIVE CALENDARIO */
+/* RESPONSIVE VIDEO */
+section .contenedor-video{
+    display: flex;
+    align-items: center;
+}
+section .contenedor-video .img-video{
+    width: 50%;
+}
+section .contenedor-video .texto-video{
+    width: 50%;
+}
+/* FINALIZA RESPONSIVE VIDEO */
+/* RESPONSIVE SPEAKER */
+section .contenedor-speaker p{
+    font-size: 25px;
+}
+/* FINALIZA RESPONSIVE SPEAKER */
+/* RESPONSIVE FOOTER */
+footer .contedor-footer .texto-footer{
+    padding: 0px 50px;
+}
+footer .contedor-footer .anio-footer{
+    padding: 0px 50px;
+}
+/* RESPONSIVE FOOTER */
+}
+/* RESPONSIVE LAPTOS Y MONITORES PEQUEÑOS*/
 @media screen and (min-width:1024px) {
-    header .contenedor .contenedor-lunch{
-        padding: 15% 0%
-    }
+/* RESPONSIVE HEADER*/
+header .contenedor .contenedor-lunch{
+    padding: 15% 0%
 }
-/* 1200px: Este ancho se utiliza para monitores de escritorio con pantallas más grandes. */
+/* FINALIZA RESPONSIVE HEADER */
+}
+/* RESPONSIVE MONITORES GRANDES */
 @media screen and (min-width:1200px) {
-    header{
-        width: 100%;
-        height: 100vh;
-    }
-    header .contenedor .contenedor-lunch{
-        padding: 8% 0%
-    }
-    /* responsive seccion calendario */
-    section .info-txt{
-        background-color: rgb(255, 255, 255);
-        padding: 50px 0px;
-    }
-    section .info-txt p{
-        font-size: 20px;
-        }
-    /* responsive seccion video */
-    section .img-video .img-1{
-        width: 50%;
-    }
-    section .texto-video p{
-        font-size: 20px;
-    }
-    section .calendario .txt-calendario p{
-        font-size: 20px;
-        }
-        /* seccion speaker */
-        section .contenedor-speaker p{
-            font-size: 30px;
-        }
-        /* seccion footer */
-        footer .contedor-footer .texto-footer p{
-            font-size: 15px;
-        }
-        footer .contedor-footer .texto-footer a{
-            font-size: 15px;
-        }
-        footer .contedor-footer .anio-footer p{
-            font-size: 15px;
-        }
+/* RESPONSIVE HEADER*/
+header{
+    width: 100%;
+    height: 100vh;
+}
+header .contenedor .contenedor-lunch{
+    padding: 8% 0%
+}
+/* FINALIZA RESPONSIVE HEADER */
+/* RESPONSIVE CALENDARIO */
+section .contenedor-calendario .info-txt{
+    background-color: rgb(255, 255, 255);
+    padding: 50px 0px;
+}
+section .contenedor-calendario .info-txt p{
+    font-size: 20px;
+}
+section .contenedor-calendario .calendario .txt-calendario p{
+    font-size: 20px;
+}
+/* FINALIZA RESPONSIVE CALENDARIO */
+/* RESPONSIVE VIDEO */
+section .contenedor-video .img-video .img-1{
+    width: 50%;
+}
+section .contenedor-video .texto-video p{
+    font-size: 20px;
+}
+/* FINALIZA RESPONSIVE VIDEO */
+/* RESPONSIVE SPEAKER */
+section .contenedor-speaker p{
+    font-size: 30px;
+}
+/* FINALIZA RESPONSIVE SPEAKER */
+/* RESPONSIVE FOOTER */
+footer .contedor-footer .texto-footer p{
+    font-size: 15px;
+}
+footer .contedor-footer .texto-footer a{
+    font-size: 15px;
+}
+footer .contedor-footer .anio-footer p{
+    font-size: 15px;
+}
+/* FINALIZA RESPONSIVE FOOTER */
 }
