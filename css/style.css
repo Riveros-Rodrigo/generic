@@ -58,7 +58,7 @@ header .contenedor .btn-header button{
 header .contenedor .contenedor-lunch{
     padding: 20px 0px
 }
-header .contenedor .contenedor-lunch .texto-header{
+header .contenedor .contenedor-lunch .texto-header h1{
     color: rgb(238, 238, 238);
     font-size: 20px;
     line-height: 1.003;
@@ -200,7 +200,7 @@ header .contenedor .contenedor-lunch{
 header .contenedor .btn-header button{
     font-size: 25px;
 }
-header .contenedor .contenedor-lunch .texto-header{
+header .contenedor .contenedor-lunch .texto-header h1{
     font-size: 30px;
     margin: 10px 0px;
 }
@@ -264,8 +264,8 @@ header{
 header .contenedor .contenedor-lunch{
     padding: 8% 0%
 }
-header .contenedor .contenedor-lunch .texto-header{
-    font-size: 100px;
+header .contenedor .contenedor-lunch .texto-header h1{
+    font-size: 90px;
     margin: 10px 0px;
 }
 /* FINALIZA RESPONSIVE HEADER */
